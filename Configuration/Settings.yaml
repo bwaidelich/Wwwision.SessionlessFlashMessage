@@ -1,0 +1,8 @@
+Neos:
+  Flow:
+    object:
+      includeClasses:
+        # The "Neos.ErrorMessages" package is no longer under Flow object management
+        # in recent versions. The following line changes this, so we can use AOP in order to
+        # introduce the \JsonSerializable interface to Neos\Error\Messages\Message
+        'neos.errormessages' : ['.*']

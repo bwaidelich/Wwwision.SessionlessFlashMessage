@@ -1,0 +1,18 @@
+{
+    "description": "Simple Flow Package demonstrating how Flash Messages could be implemented without having to rely on server-side sessions",
+    "type": "neos-package",
+    "name": "wwwision/sessionlessflashmessage",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\SessionlessFlashMessage\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.SessionlessFlashMessage"
+        }
+    }
+}
