@@ -24,6 +24,9 @@ approach to Flash Messages:
 5. An exception is thrown if Flash Messages are used in a context that
    doesn't support sessions (e.g. from the CLI)
 
+See [Original Thread](https://discuss.neos.io/t/rfc-rework-flash-message-implementation/2513)
+for more details about the motivation and further ideas/discussions.
+
 ## Implementation
 
 This example replaces the default `Neos\Flow\Mvc\FlashMessageContainer` by
