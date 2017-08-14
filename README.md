@@ -34,6 +34,9 @@ to flush that container and add any Flash Messages to a HTTP Cookie (that
 expires with the Browser session).
 Some JavaScript snippet checks for that cookie, renders any Flash Messages
 it contains and removes the cookie afterwards.
+To make it easier to encode the Flash Messages into the cookie payload,
+this also introduces the `\JsonSerializable` interface to the `Message`
+implementation via AOP.
 That's all.
 
 ### Security Considerations
